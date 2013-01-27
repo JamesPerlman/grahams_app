@@ -6,7 +6,7 @@ gem 'rails', '3.2.11'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group :production do
-	gem 'sqlite3', '1.3.7'
+	gem 'pg'
 end
 
 gem 'rmagick'
