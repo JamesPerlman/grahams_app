@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.container { 
+	width:auto;
+	height:auto;
+	border-radius:10px;
+	box-shadow:0 0 10px black;
+}
+
+body {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor:crosshair;
+}
+
+#overlay {
+	width: 1000px;
+	height: 1000px;
+};
+
+#status {
+	position:absolute;
+	top:0px; left:0px;
+}

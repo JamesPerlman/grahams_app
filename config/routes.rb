@@ -1,4 +1,6 @@
 GrahamsApp::Application.routes.draw do
+  match '/draw/:id' => 'drawer#upload', :via => :post
+  match '/draw/:id' => 'drawer#index', :via => :get
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

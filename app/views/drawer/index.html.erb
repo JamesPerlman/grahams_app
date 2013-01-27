@@ -1,0 +1,6 @@
+<body onLoad="init()">
+<a href="http://localhost/~home/OEP/Graham/index..php">Back to G-Team</a><div id="status">Start drawing!!</div>
+<a id="pid"><%= params[:id] %></a>
+<canvas width="1024px" height="1024px" style="background-image:url(<%= asset_path 'tile' + params[:id] + '.png' %>)" id="canvas" onMouseDown="mouseDown()" onMouseMove="mouseMove()" onMouseUp="mouseUp()"></canvas>
+<div id="overlay"></div>
+</body>
