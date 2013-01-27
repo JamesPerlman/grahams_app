@@ -10,7 +10,11 @@ group :development, :test do
 end
 
 group :production do
+<<<<<<< HEAD
   gem 'pg', '0.12.2'
+=======
+	gem 'pg'
+>>>>>>> b8af24fdd356fc531eb874b40d5c43dd363596a6
 end
 
 gem 'rmagick'
