@@ -7,6 +7,7 @@ gem 'rails', '3.2.11'
 
 group :production do    
     gem 'pg', '0.12.2'  
+    gem 'taps'
 end  
 
 group :development do  
